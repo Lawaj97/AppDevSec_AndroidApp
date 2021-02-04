@@ -1,5 +1,10 @@
 # AppDevSec_AndroidApp
 
+Sont disponible ici, nos deux tentatives de création d'application infructueuse dans les dossiers app1 et app2.
+Si nous suivons votre barème, cela devrait donner la note de (10 + 1,5 - 8 - 2 - 2) -0,5/20, nous avons néanmoins choisi de rendre ce travail pour ne pas avoir un non-rendu en note.
+Si à l'avenir il y a un autre projet du type, serait-il possible d'avoir une application déjà créée pour n'avoir plus qu'à la sécurisée (Ce qui est le thème de ce cours) ? En effet, nous n'avons pas pu nous atteler à cette partie comme nous n'avons pas réussi à créer ladite application.
+
+
 ### Questions :
 
 1. Pour securise le demarrage de l'application, nous avons utilise une authentification avec le pouce, de cette façon seul le proprietaire du téléphone pourra ouvrir cette application. (Screen disponibles).
