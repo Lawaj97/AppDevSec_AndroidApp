@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="44dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="27dp"
+        android:background="@android:drawable/ic_popup_sync"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/accountID"
+        android:layout_width="144dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:background="#B5DDFD"
+        android:text="@string/one"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/acountNAME"
+        android:layout_width="145dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:background="#B5DDFD"
+        android:text="@string/name"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/accountID" />
+
+    <TextView
+        android:id="@+id/acountAMOUNT"
+        android:layout_width="145dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        android:background="#B5DDFD"
+        android:text="@string/amount"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acountNAME" />
+
+    <TextView
+        android:id="@+id/acountIBAN"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="48dp"
+        android:background="#B5DDFD"
+        android:text="@string/iban"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acountAMOUNT" />
+
+    <TextView
+        android:id="@+id/acountCURENCY"
+        android:layout_width="82dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="88dp"
+        android:background="#B5DDFD"
+        android:text="@string/currency"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acountIBAN" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
