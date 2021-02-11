@@ -3,9 +3,9 @@
 ##### Modif 11/02/2021 :
 
 Dans le dossier APP_1 vous trouverez notre travail de la semaine passée.
-Dans APP_2 le nouveau programme avec ajout de l'API. Nous avons réussi à récupérer l'API dans une application test ne faisant que cela (cf APP_2<screens), mais lors de son implémentation dans l'application avec déverrouillage par empreinte, une page blanche s'affiche, n'ayant aucune erreur retourner par Android studio, nous n'avons pas réussi à corriger le problème et ce même après des heures d'essaies.
-Nous avons ajouté les APK et SRC des deux applications, celle avec empreinte avec API non fonctionnelle et celle avec seulement la connexion API.
-Les réponses aux questions se trouve un peu plus bas (rendu de la semaine dernière)
+Dans APP_2 le nouveau programme avec ajout de l'API. Nous avons réussi à récupérer l'API dans une application test ne faisant que cela (cf APP_2<screens), mais lors de son implémentation dans l'application avec déverrouillage par empreinte, une page blanche s'affiche, n'ayant aucune erreur retournée par Android studio, nous n'avons pas réussi à corriger le problème et ce même après des heures d'essais.
+Nous avons ajouté les APK et SRC des deux applications, celle avec empreinte et API non fonctionnelle puis celle avec seulement la connexion API.
+Les réponses aux questions se trouvent un peu plus bas (rendu de la semaine dernière)
 
 Merci pour ce temps supplémentaire
 
@@ -29,7 +29,7 @@ Si à l'avenir il y a un autre projet du type, serait-il possible d'avoir une ap
 
 4. Dans le dossier screenshots sur ce GitHub.
 
-### Le langage utilisé pour le developpement de cette application est le Java, sous Android Studio, API 26 OREO.
+#### Le langage utilisé pour le developpement de cette application est le Java, sous Android Studio, API 26 OREO.
 
 
 ¤ DELFOSSE Geoffrey - DUMAS Pierrick - EL HARCHI Saad - GONCALVES Simon ¤
